@@ -74,7 +74,7 @@ public class LoginPageTest {
 
 	public String readObjRepo(String objName) {
 		String objPath = null;
-		String path = System.getProperty("user.dir") + "//src//test//resources//testData//logindata.xlsx";
+		String path = System.getProperty("user.dir") + "//src//test//resources//testData//logRepo.xlsx";
 		//HSSF.... -> .xls
 		//XSSF.... -> .xlsx
 		FileInputStream fin;
